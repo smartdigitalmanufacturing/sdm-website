@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Smart Digital Manufacturing (SDM) provides integrated digital manufacturing solutions, laboratory development, engineering consulting, and professional training.">
+  <title>SDM | Smart Digital Manufacturing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="SDM Home">
+        <span class="brand-mark">SDM</span>
+        <span class="brand-name">Smart Digital Manufacturing</span>
+      </a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Solutions</a>
+        <a href="#why-sdm">Why SDM</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Engineering • Education • Innovation</p>
+          <h1>Engineering the Future of Digital Manufacturing</h1>
+          <p class="hero-text">
+            SDM helps universities, research centers, and engineering organizations
+            build effective digital manufacturing capabilities through consulting,
+            laboratory development, training, and technology solutions.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Start a Conversation</a>
+            <a class="btn btn-secondary" href="#services">Explore Our Solutions</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="visual-card card-one">
+            <span>01</span>
+            <strong>Assess</strong>
+          </div>
+          <div class="visual-card card-two">
+            <span>02</span>
+            <strong>Design</strong>
+          </div>
+          <div class="visual-card card-three">
+            <span>03</span>
+            <strong>Implement</strong>
+          </div>
+          <div class="visual-core">SDM</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-column">
+        <div>
+          <p class="section-label">About SDM</p>
+          <h2>More than equipment. A complete engineering partnership.</h2>
+        </div>
+        <div>
+          <p>
+            Smart Digital Manufacturing (SDM) is a knowledge-driven engineering and
+            technology initiative based in the United Arab Emirates. We bridge the gap
+            between engineering education, research, and industrial practice.
+          </p>
+          <p>
+            Our goal is to become the most trusted digital manufacturing reference and
+            technology partner across the Arab World and North Africa.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section section-alt">
+      <div class="container">
+        <p class="section-label">Our Solutions</p>
+        <h2>Integrated support across the digital manufacturing journey</h2>
+        <div class="cards">
+          <article class="service-card">
+            <div class="icon">01</div>
+            <h3>Laboratory Development</h3>
+            <p>Assessment, planning, equipment specification, implementation, training, and sustainable operation of engineering laboratories.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon">02</div>
+            <h3>Engineering Consulting</h3>
+            <p>Independent guidance for technology selection, digital transformation, advanced manufacturing, and operational improvement.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon">03</div>
+            <h3>Professional Training</h3>
+            <p>Practical programs in additive manufacturing, CAD/CAM, smart manufacturing, reverse engineering, and Industry 4.0.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon">04</div>
+            <h3>Design & Prototyping</h3>
+            <p>CAD design, product development, reverse engineering, rapid prototyping, and design optimization support.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-sdm" class="section">
+      <div class="container">
+        <p class="section-label">Why SDM?</p>
+        <h2>Knowledge-led solutions with measurable value</h2>
+        <div class="benefits">
+          <div><strong>Independent Advice</strong><span>Recommendations based on technical needs, not sales targets.</span></div>
+          <div><strong>Academic & Engineering Expertise</strong><span>Deep understanding of education, research, and manufacturing.</span></div>
+          <div><strong>Integrated Delivery</strong><span>One partner from assessment and planning to training and support.</span></div>
+          <div><strong>Integrity First</strong><span>SDM will never place profit before integrity.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement">
+      <div class="container">
+        <p>We do not simply sell products.</p>
+        <h2>We solve engineering problems and build lasting capability.</h2>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-box">
+        <div>
+          <p class="section-label">Let’s Build Together</p>
+          <h2>Planning a digital manufacturing laboratory or engineering initiative?</h2>
+          <p>Contact SDM to discuss your objectives and explore the right starting point.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:dr.qudeiri@gmail.com">Contact Us</a>
+          <p class="contact-note"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div>
+        <strong>SDM</strong>
+        <span>Smart Digital Manufacturing</span>
+      </div>
+      <p>United Arab Emirates • © <span id="year"></span> SDM</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
